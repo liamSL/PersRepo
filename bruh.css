@@ -1,0 +1,72 @@
+* {
+    box-sizing : border-box;
+}
+*::selection {
+    background-color: blue;
+}
+.main-box{
+    max-width : 1000px;
+    margin: auto;
+    background-color: grey;
+    border: 5px solid;
+    border-color: black;
+    padding: 2em;
+}
+body {
+    background-color: blue;
+}
+h1 {
+    color: gold;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    border: 8px double red;
+    margin: 0 10em 0 10em;
+    border-radius: 50%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    display: inline-block;
+    padding: 1em;
+}
+button.sned{
+    color: darkred;
+    background-color: goldenrod;
+    border: 4px solid darkblue;
+}
+table{
+    background-color: white;
+    padding: 0.5em;
+    margin: auto
+}
+table caption{
+    background-color: black;
+    color: white;
+    border: 4px dotted gray;
+}
+table td.r{
+    background-color: red;
+}
+table td.b{
+    background-color: blue;
+}
+table td.y{
+    background-color: yellow;
+}
+table td.o{
+    background-color: orange;
+}
+table td.p{
+    background-color: purple;
+}
+table td.g{
+    background-color: green;
+}
+img{
+    margin: 3em;
+    box-shadow: -5px 5px black;
+}
