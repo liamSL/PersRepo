@@ -6,14 +6,15 @@
 
     <script defer src = "basket.js"></script>
     <link href = "basket.css" rel = "stylesheet">
+    <link href = "normalize.css" rel = "stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id = 'navig' class = 'vis'>
             <ul>
                 <li><a href = Bruh.html>Bruh</a></li>
                 <li><a href = Cring.html>Cring</a></li>
-                <li><a href = basket.html>DotMunch</a></li>
+                <li><a href = basket.html>Basket</a></li>
                 <li><a></a></li>
                 <li><a></a></li>
             </ul>
@@ -22,7 +23,7 @@
     <div id = container>
     <div id = game-start class = "vis">
         <div>
-            <button id = "stbtn" onclick="alert('gamestart')">Start</button>
+            <button id = "stbtn" onclick="game.start()">Start</button>
         </div>
     </div>
     <div id = game-end></div>

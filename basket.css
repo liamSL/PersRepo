@@ -1,9 +1,17 @@
-nav ul{
+#navig.vis ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
+nav ul{
+    list-style-type: none;
+    display: none;
+}
 nav a{
+    display: none;
+    padding: 1em;
+}
+#navig.vis a{
     display: inline-block;
     padding: 1em;
 }
@@ -12,8 +20,14 @@ body{
 }
 #board{
     background-color:lightblue;
+    border: 5px solid darkslategray;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px groove red;
+    display:flex;
+    justify-content: center;
+    margin: auto;
 }
-#game-start{
+#game-start.vis{
     background-color: rgba(255, 255, 255, 0.5);
     border: 3px solid white;
     margin: auto 20em auto 20em;
@@ -21,7 +35,14 @@ body{
     display: flex;
     justify-content: center;
 }
+#game-start{
+    display: none;
+}
 #game-start button{
     width: 200px;
     height: 100px;
+    font-size: 50px;
+    background-color: purple;
+    color : orangered;
+    border : 8px double black;
 }
